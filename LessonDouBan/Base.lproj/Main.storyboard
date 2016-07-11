@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ILf-iq-zU8">
     <dependencies>
         <deployment identifier="iOS"/>
@@ -8,14 +10,15 @@
 
 
 
+>>>>>>> 4a5395b00a915922deb1bca5821e56fa086465d2
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ILf-iq-zU8">
-
-
     <dependencies>
-
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+<<<<<<< HEAD
+=======
 
 >>>>>>> c1927c7052e9b4b5266426d0e16540fcb8704a88
+>>>>>>> 4a5395b00a915922deb1bca5821e56fa086465d2
     </dependencies>
     <scenes>
         <!--Root View Controller-->
