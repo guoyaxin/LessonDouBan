@@ -15,7 +15,13 @@
 @end
 
 @implementation AppDelegate
-
+/**
+ 
+ 
+ 
+ 今天是7月11号O(∩_∩)O哈!
+ 
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
