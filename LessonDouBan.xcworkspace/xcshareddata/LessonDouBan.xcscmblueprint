@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "230E3F93ABB46774C37A97494F358D5361E1B71E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "230E3F93ABB46774C37A97494F358D5361E1B71E" : 0,
+    "ACA621A7B9FE956A69A8D9C5C7E11CE4EC463021" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E2F2D483-3326-425F-8489-D0470939D7A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "230E3F93ABB46774C37A97494F358D5361E1B71E" : "%E9%83%AD%E4%BA%9A%E9%91%AB\/",
+    "ACA621A7B9FE956A69A8D9C5C7E11CE4EC463021" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LessonDouBan",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LessonDouBan.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/guoyaxin\/LessonDouBan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "230E3F93ABB46774C37A97494F358D5361E1B71E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Heven7th\/LessonDouBan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ACA621A7B9FE956A69A8D9C5C7E11CE4EC463021"
+    }
+  ]
+}
