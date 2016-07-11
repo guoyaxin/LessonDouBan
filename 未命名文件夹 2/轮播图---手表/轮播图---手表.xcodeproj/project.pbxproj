@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D666FF4F1D195D7B007D4880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D666FF4E1D195D7B007D4880 /* main.m */; };
+		D666FF521D195D7B007D4880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D666FF511D195D7B007D4880 /* AppDelegate.m */; };
+		D666FF581D195D7B007D4880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666FF561D195D7B007D4880 /* Main.storyboard */; };
+		D666FF5A1D195D7B007D4880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D666FF591D195D7B007D4880 /* Assets.xcassets */; };
+		D666FF5D1D195D7B007D4880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666FF5B1D195D7B007D4880 /* LaunchScreen.storyboard */; };
+		D666FF661D195F3B007D4880 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D666FF651D195F3B007D4880 /* RootTableViewController.m */; };
+		D666FF691D196133007D4880 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D666FF681D196133007D4880 /* MyTableViewCell.m */; };
+		D666FF6B1D196A7B007D4880 /* GoodsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D666FF6A1D196A7B007D4880 /* GoodsList.plist */; };
+		D666FF991D196A80007D4880 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF6C1D196A80007D4880 /* 0.jpg */; };
+		D666FF9A1D196A80007D4880 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF6D1D196A80007D4880 /* 1.jpg */; };
+		D666FF9B1D196A80007D4880 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF6E1D196A80007D4880 /* 2.jpg */; };
+		D666FF9C1D196A80007D4880 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF6F1D196A80007D4880 /* 3.jpg */; };
+		D666FF9D1D196A80007D4880 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF701D196A80007D4880 /* 4.jpg */; };
+		D666FF9E1D196A80007D4880 /* GoodsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D666FF711D196A80007D4880 /* GoodsList.plist */; };
+		D666FF9F1D196A80007D4880 /* apple_watch_01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF721D196A80007D4880 /* apple_watch_01@2x.jpg */; };
+		D666FFA01D196A80007D4880 /* apple_watch_02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF731D196A80007D4880 /* apple_watch_02@2x.jpg */; };
+		D666FFA11D196A80007D4880 /* apple_watch_03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF741D196A80007D4880 /* apple_watch_03@2x.jpg */; };
+		D666FFA21D196A80007D4880 /* apple_watch_04@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF751D196A80007D4880 /* apple_watch_04@2x.jpg */; };
+		D666FFA31D196A80007D4880 /* apple_watch_05@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF761D196A80007D4880 /* apple_watch_05@2x.jpg */; };
+		D666FFA41D196A80007D4880 /* apple_watch_06@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF771D196A80007D4880 /* apple_watch_06@2x.jpg */; };
+		D666FFA51D196A80007D4880 /* apple_watch_07@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF781D196A80007D4880 /* apple_watch_07@2x.jpg */; };
+		D666FFA61D196A80007D4880 /* apple_watch_09@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF791D196A80007D4880 /* apple_watch_09@2x.jpg */; };
+		D666FFA71D196A80007D4880 /* apple_watch_10@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF7A1D196A80007D4880 /* apple_watch_10@2x.jpg */; };
+		D666FFA81D196A80007D4880 /* apple_watch_11@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF7B1D196A80007D4880 /* apple_watch_11@2x.jpg */; };
+		D666FFA91D196A80007D4880 /* apple_watch_12@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF7C1D196A80007D4880 /* apple_watch_12@2x.jpg */; };
+		D666FFAA1D196A80007D4880 /* apple_watch_13@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF7D1D196A80007D4880 /* apple_watch_13@2x.jpg */; };
+		D666FFAB1D196A80007D4880 /* apple_watch_14@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF7E1D196A80007D4880 /* apple_watch_14@2x.jpg */; };
+		D666FFAC1D196A80007D4880 /* apple_watch_15@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF7F1D196A80007D4880 /* apple_watch_15@2x.jpg */; };
+		D666FFAD1D196A80007D4880 /* apple_watch_16@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF801D196A80007D4880 /* apple_watch_16@2x.jpg */; };
+		D666FFAE1D196A80007D4880 /* apple_watch_17@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF811D196A80007D4880 /* apple_watch_17@2x.jpg */; };
+		D666FFAF1D196A80007D4880 /* apple_watch_18@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF821D196A80007D4880 /* apple_watch_18@2x.jpg */; };
+		D666FFB01D196A80007D4880 /* apple_watch_19@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF831D196A80007D4880 /* apple_watch_19@2x.jpg */; };
+		D666FFB11D196A80007D4880 /* apple_watch_20@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF841D196A80007D4880 /* apple_watch_20@2x.jpg */; };
+		D666FFB21D196A80007D4880 /* apple_watch_edition_01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF851D196A80007D4880 /* apple_watch_edition_01@2x.jpg */; };
+		D666FFB31D196A80007D4880 /* apple_watch_edition_02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF861D196A80007D4880 /* apple_watch_edition_02@2x.jpg */; };
+		D666FFB41D196A80007D4880 /* apple_watch_edition_03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF871D196A80007D4880 /* apple_watch_edition_03@2x.jpg */; };
+		D666FFB51D196A80007D4880 /* apple_watch_edition_04@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF881D196A80007D4880 /* apple_watch_edition_04@2x.jpg */; };
+		D666FFB61D196A80007D4880 /* apple_watch_edition_05@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF891D196A80007D4880 /* apple_watch_edition_05@2x.jpg */; };
+		D666FFB71D196A80007D4880 /* apple_watch_edition_06@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF8A1D196A80007D4880 /* apple_watch_edition_06@2x.jpg */; };
+		D666FFB81D196A80007D4880 /* apple_watch_edition_07@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF8B1D196A80007D4880 /* apple_watch_edition_07@2x.jpg */; };
+		D666FFB91D196A80007D4880 /* apple_watch_edition_08@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF8C1D196A80007D4880 /* apple_watch_edition_08@2x.jpg */; };
+		D666FFBA1D196A80007D4880 /* apple_watch_sport_01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF8D1D196A80007D4880 /* apple_watch_sport_01@2x.jpg */; };
+		D666FFBB1D196A80007D4880 /* apple_watch_sport_02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF8E1D196A80007D4880 /* apple_watch_sport_02@2x.jpg */; };
+		D666FFBC1D196A80007D4880 /* apple_watch_sport_03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF8F1D196A80007D4880 /* apple_watch_sport_03@2x.jpg */; };
+		D666FFBD1D196A80007D4880 /* apple_watch_sport_04@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF901D196A80007D4880 /* apple_watch_sport_04@2x.jpg */; };
+		D666FFBE1D196A80007D4880 /* apple_watch_sport_05@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF911D196A80007D4880 /* apple_watch_sport_05@2x.jpg */; };
+		D666FFBF1D196A80007D4880 /* apple_watch_sport_06@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF921D196A80007D4880 /* apple_watch_sport_06@2x.jpg */; };
+		D666FFC01D196A80007D4880 /* apple_watch_sport_07@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF931D196A80007D4880 /* apple_watch_sport_07@2x.jpg */; };
+		D666FFC11D196A80007D4880 /* apple_watch_sport_08@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF941D196A80007D4880 /* apple_watch_sport_08@2x.jpg */; };
+		D666FFC21D196A80007D4880 /* apple_watch_sport_09@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF951D196A80007D4880 /* apple_watch_sport_09@2x.jpg */; };
+		D666FFC31D196A80007D4880 /* apple_watch_sport_10@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D666FF961D196A80007D4880 /* apple_watch_sport_10@2x.jpg */; };
+		D666FFC41D196A80007D4880 /* header_5bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D666FF971D196A80007D4880 /* header_5bg@2x.png */; };
+		D666FFC71D196D34007D4880 /* Scrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = D666FFC61D196D34007D4880 /* Scrollview.m */; };
+		D666FFCA1D197C6B007D4880 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D666FFC91D197C6B007D4880 /* Model.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D666FF4A1D195D7B007D4880 /* 轮播图---手表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "轮播图---手表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D666FF4E1D195D7B007D4880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D666FF501D195D7B007D4880 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D666FF511D195D7B007D4880 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D666FF571D195D7B007D4880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D666FF591D195D7B007D4880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D666FF5C1D195D7B007D4880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D666FF5E1D195D7B007D4880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D666FF641D195F3B007D4880 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		D666FF651D195F3B007D4880 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		D666FF671D196133007D4880 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		D666FF681D196133007D4880 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		D666FF6A1D196A7B007D4880 /* GoodsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodsList.plist; sourceTree = "<group>"; };
+		D666FF6C1D196A80007D4880 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		D666FF6D1D196A80007D4880 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D666FF6E1D196A80007D4880 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D666FF6F1D196A80007D4880 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		D666FF701D196A80007D4880 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D666FF711D196A80007D4880 /* GoodsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodsList.plist; sourceTree = "<group>"; };
+		D666FF721D196A80007D4880 /* apple_watch_01@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_01@2x.jpg"; sourceTree = "<group>"; };
+		D666FF731D196A80007D4880 /* apple_watch_02@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_02@2x.jpg"; sourceTree = "<group>"; };
+		D666FF741D196A80007D4880 /* apple_watch_03@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_03@2x.jpg"; sourceTree = "<group>"; };
+		D666FF751D196A80007D4880 /* apple_watch_04@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_04@2x.jpg"; sourceTree = "<group>"; };
+		D666FF761D196A80007D4880 /* apple_watch_05@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_05@2x.jpg"; sourceTree = "<group>"; };
+		D666FF771D196A80007D4880 /* apple_watch_06@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_06@2x.jpg"; sourceTree = "<group>"; };
+		D666FF781D196A80007D4880 /* apple_watch_07@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_07@2x.jpg"; sourceTree = "<group>"; };
+		D666FF791D196A80007D4880 /* apple_watch_09@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_09@2x.jpg"; sourceTree = "<group>"; };
+		D666FF7A1D196A80007D4880 /* apple_watch_10@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_10@2x.jpg"; sourceTree = "<group>"; };
+		D666FF7B1D196A80007D4880 /* apple_watch_11@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_11@2x.jpg"; sourceTree = "<group>"; };
+		D666FF7C1D196A80007D4880 /* apple_watch_12@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_12@2x.jpg"; sourceTree = "<group>"; };
+		D666FF7D1D196A80007D4880 /* apple_watch_13@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_13@2x.jpg"; sourceTree = "<group>"; };
+		D666FF7E1D196A80007D4880 /* apple_watch_14@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_14@2x.jpg"; sourceTree = "<group>"; };
+		D666FF7F1D196A80007D4880 /* apple_watch_15@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_15@2x.jpg"; sourceTree = "<group>"; };
+		D666FF801D196A80007D4880 /* apple_watch_16@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_16@2x.jpg"; sourceTree = "<group>"; };
+		D666FF811D196A80007D4880 /* apple_watch_17@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_17@2x.jpg"; sourceTree = "<group>"; };
+		D666FF821D196A80007D4880 /* apple_watch_18@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_18@2x.jpg"; sourceTree = "<group>"; };
+		D666FF831D196A80007D4880 /* apple_watch_19@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_19@2x.jpg"; sourceTree = "<group>"; };
+		D666FF841D196A80007D4880 /* apple_watch_20@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_20@2x.jpg"; sourceTree = "<group>"; };
+		D666FF851D196A80007D4880 /* apple_watch_edition_01@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_01@2x.jpg"; sourceTree = "<group>"; };
+		D666FF861D196A80007D4880 /* apple_watch_edition_02@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_02@2x.jpg"; sourceTree = "<group>"; };
+		D666FF871D196A80007D4880 /* apple_watch_edition_03@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_03@2x.jpg"; sourceTree = "<group>"; };
+		D666FF881D196A80007D4880 /* apple_watch_edition_04@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_04@2x.jpg"; sourceTree = "<group>"; };
+		D666FF891D196A80007D4880 /* apple_watch_edition_05@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_05@2x.jpg"; sourceTree = "<group>"; };
+		D666FF8A1D196A80007D4880 /* apple_watch_edition_06@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_06@2x.jpg"; sourceTree = "<group>"; };
+		D666FF8B1D196A80007D4880 /* apple_watch_edition_07@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_07@2x.jpg"; sourceTree = "<group>"; };
+		D666FF8C1D196A80007D4880 /* apple_watch_edition_08@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_edition_08@2x.jpg"; sourceTree = "<group>"; };
+		D666FF8D1D196A80007D4880 /* apple_watch_sport_01@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_01@2x.jpg"; sourceTree = "<group>"; };
+		D666FF8E1D196A80007D4880 /* apple_watch_sport_02@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_02@2x.jpg"; sourceTree = "<group>"; };
+		D666FF8F1D196A80007D4880 /* apple_watch_sport_03@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_03@2x.jpg"; sourceTree = "<group>"; };
+		D666FF901D196A80007D4880 /* apple_watch_sport_04@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_04@2x.jpg"; sourceTree = "<group>"; };
+		D666FF911D196A80007D4880 /* apple_watch_sport_05@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_05@2x.jpg"; sourceTree = "<group>"; };
+		D666FF921D196A80007D4880 /* apple_watch_sport_06@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_06@2x.jpg"; sourceTree = "<group>"; };
+		D666FF931D196A80007D4880 /* apple_watch_sport_07@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_07@2x.jpg"; sourceTree = "<group>"; };
+		D666FF941D196A80007D4880 /* apple_watch_sport_08@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_08@2x.jpg"; sourceTree = "<group>"; };
+		D666FF951D196A80007D4880 /* apple_watch_sport_09@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_09@2x.jpg"; sourceTree = "<group>"; };
+		D666FF961D196A80007D4880 /* apple_watch_sport_10@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple_watch_sport_10@2x.jpg"; sourceTree = "<group>"; };
+		D666FF971D196A80007D4880 /* header_5bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_5bg@2x.png"; sourceTree = "<group>"; };
+		D666FFC51D196D34007D4880 /* Scrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scrollview.h; sourceTree = "<group>"; };
+		D666FFC61D196D34007D4880 /* Scrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scrollview.m; sourceTree = "<group>"; };
+		D666FFC81D197C6B007D4880 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		D666FFC91D197C6B007D4880 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D666FF471D195D7B007D4880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D666FF411D195D7B007D4880 = {
+			isa = PBXGroup;
+			children = (
+				D666FF4C1D195D7B007D4880 /* 轮播图---手表 */,
+				D666FF4B1D195D7B007D4880 /* Products */,
+				D666FF6A1D196A7B007D4880 /* GoodsList.plist */,
+				D666FF981D196A80007D4880 /* Smart Watch  */,
+			);
+			sourceTree = "<group>";
+		};
+		D666FF4B1D195D7B007D4880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D666FF4A1D195D7B007D4880 /* 轮播图---手表.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D666FF4C1D195D7B007D4880 /* 轮播图---手表 */ = {
+			isa = PBXGroup;
+			children = (
+				D666FF501D195D7B007D4880 /* AppDelegate.h */,
+				D666FF511D195D7B007D4880 /* AppDelegate.m */,
+				D666FF641D195F3B007D4880 /* RootTableViewController.h */,
+				D666FF651D195F3B007D4880 /* RootTableViewController.m */,
+				D666FF671D196133007D4880 /* MyTableViewCell.h */,
+				D666FF681D196133007D4880 /* MyTableViewCell.m */,
+				D666FFC51D196D34007D4880 /* Scrollview.h */,
+				D666FFC61D196D34007D4880 /* Scrollview.m */,
+				D666FFC81D197C6B007D4880 /* Model.h */,
+				D666FFC91D197C6B007D4880 /* Model.m */,
+				D666FF561D195D7B007D4880 /* Main.storyboard */,
+				D666FF591D195D7B007D4880 /* Assets.xcassets */,
+				D666FF5B1D195D7B007D4880 /* LaunchScreen.storyboard */,
+				D666FF5E1D195D7B007D4880 /* Info.plist */,
+				D666FF4D1D195D7B007D4880 /* Supporting Files */,
+			);
+			path = "轮播图---手表";
+			sourceTree = "<group>";
+		};
+		D666FF4D1D195D7B007D4880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D666FF4E1D195D7B007D4880 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D666FF981D196A80007D4880 /* Smart Watch  */ = {
+			isa = PBXGroup;
+			children = (
+				D666FF6C1D196A80007D4880 /* 0.jpg */,
+				D666FF6D1D196A80007D4880 /* 1.jpg */,
+				D666FF6E1D196A80007D4880 /* 2.jpg */,
+				D666FF6F1D196A80007D4880 /* 3.jpg */,
+				D666FF701D196A80007D4880 /* 4.jpg */,
+				D666FF711D196A80007D4880 /* GoodsList.plist */,
+				D666FF721D196A80007D4880 /* apple_watch_01@2x.jpg */,
+				D666FF731D196A80007D4880 /* apple_watch_02@2x.jpg */,
+				D666FF741D196A80007D4880 /* apple_watch_03@2x.jpg */,
+				D666FF751D196A80007D4880 /* apple_watch_04@2x.jpg */,
+				D666FF761D196A80007D4880 /* apple_watch_05@2x.jpg */,
+				D666FF771D196A80007D4880 /* apple_watch_06@2x.jpg */,
+				D666FF781D196A80007D4880 /* apple_watch_07@2x.jpg */,
+				D666FF791D196A80007D4880 /* apple_watch_09@2x.jpg */,
+				D666FF7A1D196A80007D4880 /* apple_watch_10@2x.jpg */,
+				D666FF7B1D196A80007D4880 /* apple_watch_11@2x.jpg */,
+				D666FF7C1D196A80007D4880 /* apple_watch_12@2x.jpg */,
+				D666FF7D1D196A80007D4880 /* apple_watch_13@2x.jpg */,
+				D666FF7E1D196A80007D4880 /* apple_watch_14@2x.jpg */,
+				D666FF7F1D196A80007D4880 /* apple_watch_15@2x.jpg */,
+				D666FF801D196A80007D4880 /* apple_watch_16@2x.jpg */,
+				D666FF811D196A80007D4880 /* apple_watch_17@2x.jpg */,
+				D666FF821D196A80007D4880 /* apple_watch_18@2x.jpg */,
+				D666FF831D196A80007D4880 /* apple_watch_19@2x.jpg */,
+				D666FF841D196A80007D4880 /* apple_watch_20@2x.jpg */,
+				D666FF851D196A80007D4880 /* apple_watch_edition_01@2x.jpg */,
+				D666FF861D196A80007D4880 /* apple_watch_edition_02@2x.jpg */,
+				D666FF871D196A80007D4880 /* apple_watch_edition_03@2x.jpg */,
+				D666FF881D196A80007D4880 /* apple_watch_edition_04@2x.jpg */,
+				D666FF891D196A80007D4880 /* apple_watch_edition_05@2x.jpg */,
+				D666FF8A1D196A80007D4880 /* apple_watch_edition_06@2x.jpg */,
+				D666FF8B1D196A80007D4880 /* apple_watch_edition_07@2x.jpg */,
+				D666FF8C1D196A80007D4880 /* apple_watch_edition_08@2x.jpg */,
+				D666FF8D1D196A80007D4880 /* apple_watch_sport_01@2x.jpg */,
+				D666FF8E1D196A80007D4880 /* apple_watch_sport_02@2x.jpg */,
+				D666FF8F1D196A80007D4880 /* apple_watch_sport_03@2x.jpg */,
+				D666FF901D196A80007D4880 /* apple_watch_sport_04@2x.jpg */,
+				D666FF911D196A80007D4880 /* apple_watch_sport_05@2x.jpg */,
+				D666FF921D196A80007D4880 /* apple_watch_sport_06@2x.jpg */,
+				D666FF931D196A80007D4880 /* apple_watch_sport_07@2x.jpg */,
+				D666FF941D196A80007D4880 /* apple_watch_sport_08@2x.jpg */,
+				D666FF951D196A80007D4880 /* apple_watch_sport_09@2x.jpg */,
+				D666FF961D196A80007D4880 /* apple_watch_sport_10@2x.jpg */,
+				D666FF971D196A80007D4880 /* header_5bg@2x.png */,
+			);
+			name = "Smart Watch ";
+			path = "../../未命名文件夹/UI/手表/手表-/Smart Watch ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D666FF491D195D7B007D4880 /* 轮播图---手表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D666FF611D195D7B007D4880 /* Build configuration list for PBXNativeTarget "轮播图---手表" */;
+			buildPhases = (
+				D666FF461D195D7B007D4880 /* Sources */,
+				D666FF471D195D7B007D4880 /* Frameworks */,
+				D666FF481D195D7B007D4880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "轮播图---手表";
+			productName = "轮播图---手表";
+			productReference = D666FF4A1D195D7B007D4880 /* 轮播图---手表.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D666FF421D195D7B007D4880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZSH;
+				TargetAttributes = {
+					D666FF491D195D7B007D4880 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BAGEK5GNCE;
+					};
+				};
+			};
+			buildConfigurationList = D666FF451D195D7B007D4880 /* Build configuration list for PBXProject "轮播图---手表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D666FF411D195D7B007D4880;
+			productRefGroup = D666FF4B1D195D7B007D4880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D666FF491D195D7B007D4880 /* 轮播图---手表 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D666FF481D195D7B007D4880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D666FFB91D196A80007D4880 /* apple_watch_edition_08@2x.jpg in Resources */,
+				D666FFBB1D196A80007D4880 /* apple_watch_sport_02@2x.jpg in Resources */,
+				D666FFBF1D196A80007D4880 /* apple_watch_sport_06@2x.jpg in Resources */,
+				D666FF5D1D195D7B007D4880 /* LaunchScreen.storyboard in Resources */,
+				D666FFBE1D196A80007D4880 /* apple_watch_sport_05@2x.jpg in Resources */,
+				D666FFC01D196A80007D4880 /* apple_watch_sport_07@2x.jpg in Resources */,
+				D666FFA51D196A80007D4880 /* apple_watch_07@2x.jpg in Resources */,
+				D666FF991D196A80007D4880 /* 0.jpg in Resources */,
+				D666FFBC1D196A80007D4880 /* apple_watch_sport_03@2x.jpg in Resources */,
+				D666FFA81D196A80007D4880 /* apple_watch_11@2x.jpg in Resources */,
+				D666FFB31D196A80007D4880 /* apple_watch_edition_02@2x.jpg in Resources */,
+				D666FF9B1D196A80007D4880 /* 2.jpg in Resources */,
+				D666FFA61D196A80007D4880 /* apple_watch_09@2x.jpg in Resources */,
+				D666FFC21D196A80007D4880 /* apple_watch_sport_09@2x.jpg in Resources */,
+				D666FFA01D196A80007D4880 /* apple_watch_02@2x.jpg in Resources */,
+				D666FF6B1D196A7B007D4880 /* GoodsList.plist in Resources */,
+				D666FF9F1D196A80007D4880 /* apple_watch_01@2x.jpg in Resources */,
+				D666FFB21D196A80007D4880 /* apple_watch_edition_01@2x.jpg in Resources */,
+				D666FFB51D196A80007D4880 /* apple_watch_edition_04@2x.jpg in Resources */,
+				D666FFB41D196A80007D4880 /* apple_watch_edition_03@2x.jpg in Resources */,
+				D666FFC41D196A80007D4880 /* header_5bg@2x.png in Resources */,
+				D666FFA71D196A80007D4880 /* apple_watch_10@2x.jpg in Resources */,
+				D666FFA31D196A80007D4880 /* apple_watch_05@2x.jpg in Resources */,
+				D666FFBD1D196A80007D4880 /* apple_watch_sport_04@2x.jpg in Resources */,
+				D666FFAB1D196A80007D4880 /* apple_watch_14@2x.jpg in Resources */,
+				D666FFAD1D196A80007D4880 /* apple_watch_16@2x.jpg in Resources */,
+				D666FF9A1D196A80007D4880 /* 1.jpg in Resources */,
+				D666FFA21D196A80007D4880 /* apple_watch_04@2x.jpg in Resources */,
+				D666FF9E1D196A80007D4880 /* GoodsList.plist in Resources */,
+				D666FFA11D196A80007D4880 /* apple_watch_03@2x.jpg in Resources */,
+				D666FFA41D196A80007D4880 /* apple_watch_06@2x.jpg in Resources */,
+				D666FF5A1D195D7B007D4880 /* Assets.xcassets in Resources */,
+				D666FFB81D196A80007D4880 /* apple_watch_edition_07@2x.jpg in Resources */,
+				D666FFB71D196A80007D4880 /* apple_watch_edition_06@2x.jpg in Resources */,
+				D666FFAE1D196A80007D4880 /* apple_watch_17@2x.jpg in Resources */,
+				D666FF9D1D196A80007D4880 /* 4.jpg in Resources */,
+				D666FFAF1D196A80007D4880 /* apple_watch_18@2x.jpg in Resources */,
+				D666FFAC1D196A80007D4880 /* apple_watch_15@2x.jpg in Resources */,
+				D666FFB01D196A80007D4880 /* apple_watch_19@2x.jpg in Resources */,
+				D666FF581D195D7B007D4880 /* Main.storyboard in Resources */,
+				D666FFB11D196A80007D4880 /* apple_watch_20@2x.jpg in Resources */,
+				D666FFC11D196A80007D4880 /* apple_watch_sport_08@2x.jpg in Resources */,
+				D666FFAA1D196A80007D4880 /* apple_watch_13@2x.jpg in Resources */,
+				D666FFB61D196A80007D4880 /* apple_watch_edition_05@2x.jpg in Resources */,
+				D666FF9C1D196A80007D4880 /* 3.jpg in Resources */,
+				D666FFA91D196A80007D4880 /* apple_watch_12@2x.jpg in Resources */,
+				D666FFBA1D196A80007D4880 /* apple_watch_sport_01@2x.jpg in Resources */,
+				D666FFC31D196A80007D4880 /* apple_watch_sport_10@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D666FF461D195D7B007D4880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D666FF661D195F3B007D4880 /* RootTableViewController.m in Sources */,
+				D666FF691D196133007D4880 /* MyTableViewCell.m in Sources */,
+				D666FF521D195D7B007D4880 /* AppDelegate.m in Sources */,
+				D666FFCA1D197C6B007D4880 /* Model.m in Sources */,
+				D666FF4F1D195D7B007D4880 /* main.m in Sources */,
+				D666FFC71D196D34007D4880 /* Scrollview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D666FF561D195D7B007D4880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D666FF571D195D7B007D4880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D666FF5B1D195D7B007D4880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D666FF5C1D195D7B007D4880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D666FF5F1D195D7B007D4880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D666FF601D195D7B007D4880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D666FF621D195D7B007D4880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "轮播图---手表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangShiJT.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D666FF631D195D7B007D4880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "轮播图---手表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangShiJT.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D666FF451D195D7B007D4880 /* Build configuration list for PBXProject "轮播图---手表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D666FF5F1D195D7B007D4880 /* Debug */,
+				D666FF601D195D7B007D4880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D666FF611D195D7B007D4880 /* Build configuration list for PBXNativeTarget "轮播图---手表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D666FF621D195D7B007D4880 /* Debug */,
+				D666FF631D195D7B007D4880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D666FF421D195D7B007D4880 /* Project object */;
+}
