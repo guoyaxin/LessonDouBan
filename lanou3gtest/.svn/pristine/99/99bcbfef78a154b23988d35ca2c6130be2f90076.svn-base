@@ -1,0 +1,26 @@
+//
+//  ActivityDetailModel.m
+//  LessonDouBan
+//
+//  Created by CLT on 16/6/28.
+//  Copyright © 2016年 yaxin.guo. All rights reserved.
+//
+
+#import "ActivityDetailModel.h"
+
+@implementation ActivityDetailModel
+// 备注了一句话
+//你好啊
+//我在这,你在哪?
+
+//guoyaxin add a line
+//史帅 小白脸
+
+
+// 邯郸张鹏
+//永年张朕
+@end
+
+
+
+//  KKKKK.
